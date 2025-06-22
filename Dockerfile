@@ -1,5 +1,5 @@
 # FINAL Dockerfile - Dứt điểm cho Railway deployment
-FROM python:3.10.16-slim-bullseye
+FROM python:3.10.16-slim-bookworm
 
 # System dependencies
 RUN apt-get update && apt-get install -y \
