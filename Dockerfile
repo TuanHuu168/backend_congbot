@@ -1,4 +1,4 @@
-# Simplified Dockerfile for Railway deployment
+# Railway Dockerfile với exact versions từ requirements.txt gốc
 FROM python:3.10.16-slim-bullseye
 
 # Cài đặt system dependencies
@@ -8,73 +8,96 @@ RUN apt-get update && apt-get install -y \
     git \
     gcc \
     g++ \
+    cmake \
+    pkg-config \
     libhdf5-dev \
+    libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip và cài đặt wheel
-RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+# Set working directory as root to install packages
+WORKDIR /app
 
-# Tạo user non-root
-RUN useradd --create-home --shell /bin/bash app
+# Upgrade pip và tools
+RUN pip install --no-cache-dir --upgrade pip==25.0 setuptools==75.8.0 wheel==0.45.1
+
+# Copy requirements
+COPY requirements-railway.txt .
+
+# Step 1: Cài PyTorch CPU trước (quan trọng phải cài trước)
+RUN pip install --no-cache-dir --timeout 1500 \
+    torch==2.5.1+cpu \
+    torchvision==0.20.1+cpu \
+    torchaudio==2.5.1+cpu \
+    --index-url https://download.pytorch.org/whl/cpu
+
+# Step 2: Cài packages từ requirements-railway.txt
+RUN pip install --no-cache-dir --timeout 1500 -r requirements-railway.txt
+
+# Step 3: Fix Google genai import issue - ensure correct version
+RUN pip install --no-cache-dir --force-reinstall \
+    google-genai==1.11.0 \
+    google-generativeai==0.8.5
+
+# Tạo non-root user và fix PATH
+RUN useradd --create-home --shell /bin/bash app \
+    && mkdir -p /home/app/.local/bin \
+    && chown -R app:app /home/app
+
+# Switch to app user
 USER app
 WORKDIR /home/app
 
-# Step 1: Cài base packages trước
-RUN pip install --no-cache-dir --timeout 1000 \
-    numpy==2.2.5 \
-    pydantic==2.11.3 \
-    fastapi==0.115.9 \
-    uvicorn==0.34.2
-
-# Step 2: Cài PyTorch CPU-only
-RUN pip install --no-cache-dir --timeout 1000 \
-    torch==2.4.1 \
-    torchvision==0.19.1 \
-    torchaudio==2.4.1 \
-    --index-url https://download.pytorch.org/whl/cpu
-
-# Step 3: Cài database packages
-RUN pip install --no-cache-dir --timeout 1000 \
-    pymongo==4.13.0
-
-# Step 4: Cài AI packages cơ bản
-RUN pip install --no-cache-dir --timeout 1000 \
-    transformers==4.44.2 \
-    sentence-transformers==3.0.1 \
-    google-generativeai==0.8.5
-
-# Step 5: Cài utilities
-RUN pip install --no-cache-dir --timeout 1000 \
-    python-multipart==0.0.20 \
-    python-dotenv==1.1.0 \
-    bcrypt==4.3.0 \
-    requests==2.32.3 \
-    httpx==0.28.1 \
-    click==8.1.8
-
-# Step 6: LangChain minimal
-RUN pip install --no-cache-dir --timeout 1000 \
-    langchain-core==0.3.55 \
-    langchain-google-genai==2.1.3 || echo "LangChain install failed, continuing..."
-
-# Step 7: Optional packages (continue on error)
-RUN pip install --no-cache-dir --timeout 1000 \
-    openai==1.82.0 \
-    email_validator==2.2.0 \
-    scikit-learn==1.5.1 || echo "Optional packages install failed, continuing..."
+# Fix PATH and Python environment
+ENV PATH="/home/app/.local/bin:/usr/local/bin:$PATH"
+ENV PYTHONPATH="/home/app:$PYTHONPATH"
+ENV PYTHONUNBUFFERED=1
+ENV CUDA_VISIBLE_DEVICES=""
+ENV USE_GPU=False
 
 # Copy source code
 COPY --chown=app:app . .
 
-# Copy and make start script executable
-COPY --chown=app:app start.sh .
-RUN chmod +x start.sh
-
 # Tạo thư mục cần thiết
-RUN mkdir -p chroma_db data benchmark logs
+RUN mkdir -p chroma_db data benchmark/results logs tmp
+
+# Test import để ensure packages work
+RUN python -c "
+import sys
+print('Python version:', sys.version)
+try:
+    import torch
+    print('✅ PyTorch version:', torch.__version__)
+    print('✅ PyTorch CPU-only:', not torch.cuda.is_available())
+except ImportError as e:
+    print('❌ PyTorch import failed:', e)
+
+try:
+    from google import genai
+    print('✅ Google genai imported successfully')
+except ImportError as e:
+    print('❌ Google genai import failed:', e)
+
+try:
+    import google.generativeai
+    print('✅ Google generativeai imported successfully')
+except ImportError as e:
+    print('❌ Google generativeai import failed:', e)
+
+try:
+    import fastapi
+    print('✅ FastAPI imported successfully')
+except ImportError as e:
+    print('❌ FastAPI import failed:', e)
+
+try:
+    import chromadb
+    print('✅ ChromaDB imported successfully')
+except ImportError as e:
+    print('❌ ChromaDB import failed:', e)
+"
 
 # Expose port
 EXPOSE 8001
 
-# Use start script
-CMD ["./start.sh"]
+# Start command với timeout cao hơn cho Railway
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001", "--timeout-keep-alive", "300", "--access-log"]
