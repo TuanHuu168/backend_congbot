@@ -1,56 +1,58 @@
-# backend/config.py (chỉ cập nhật phần import)
+# Production configuration overrides
 import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+# Load environment variables
 load_dotenv()
 
-ROOT_DIR = Path(__file__).parent.parent
+# Force CPU usage in production
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+os.environ["USE_GPU"] = "False"
 
-DATA_DIR = os.path.join(ROOT_DIR, "data")
-BENCHMARK_DIR = os.path.join(ROOT_DIR, "benchmark")
-BENCHMARK_RESULTS_DIR = os.path.join(BENCHMARK_DIR, "results")
+# Optimize for Railway environment
+ROOT_DIR = Path(__file__).parent
 
-class DatabaseConfig:
-    """Cấu hình database - MongoDB và ChromaDB"""
+# Database settings
+class ProductionDatabaseConfig:
+    """Production database configuration"""
     MONGODB_USERNAME = os.getenv("MONGODB_USERNAME")
     MONGODB_PASSWORD = os.getenv("MONGODB_PASSWORD")
     MONGODB_HOST = os.getenv("MONGODB_HOST")
     MONGO_DB_NAME = os.getenv("MONGODB_DATABASE", "chatbot_db")
     MONGO_URI = f"mongodb+srv://{MONGODB_USERNAME}:{MONGODB_PASSWORD}{MONGODB_HOST}/{MONGO_DB_NAME}?retryWrites=true&w=majority"
     
-    # ChromaDB Local Configuration
-    CHROMA_PERSIST_PATH = os.getenv("CHROMA_PERSIST_PATH", "./chroma_db")
+    # ChromaDB - use memory for Railway (lightweight)
+    CHROMA_PERSIST_PATH = os.getenv("CHROMA_PERSIST_PATH", "/tmp/chroma_db")
     CHROMA_COLLECTION = os.getenv("COLLECTION_NAME", "law_data")
-    # Tạo đường dẫn tuyệt đối cho ChromaDB
-    CHROMA_PERSIST_DIRECTORY = os.path.join(ROOT_DIR, CHROMA_PERSIST_PATH.lstrip('./'))
+    CHROMA_PERSIST_DIRECTORY = CHROMA_PERSIST_PATH
 
-class AIConfig:
-    """Cấu hình AI models và parameters"""
-    EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL")
-    USE_GPU = os.getenv("USE_GPU", "True").lower() == "true"
+class ProductionAIConfig:
+    """Production AI configuration - optimized for CPU"""
+    EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+    USE_GPU = False  # Force CPU
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    GEMINI_MODEL = os.getenv("GEMINI_MODEL")
-    TOP_K = int(os.getenv("TOP_K"))
-    MAX_TOKENS_PER_DOC = int(os.getenv("MAX_CONTEXT_LENGTH"))
+    GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+    TOP_K = int(os.getenv("TOP_K", "3"))  # Reduce for faster processing
+    MAX_TOKENS_PER_DOC = int(os.getenv("MAX_CONTEXT_LENGTH", 10000)) 
 
-class PerformanceConfig:
-    """Cấu hình performance và caching"""
-    CACHE_TTL_DAYS = int(os.getenv("CACHE_TTL_DAYS"))
-    MAX_CONVERSATION_TOKENS = int(os.getenv("MAX_CONVERSATION_TOKENS"))
+class ProductionPerformanceConfig:
+    """Production performance settings"""
+    CACHE_TTL_DAYS = int(os.getenv("CACHE_TTL_DAYS", "7"))
+    MAX_CONVERSATION_TOKENS = int(os.getenv("MAX_CONVERSATION_TOKENS", 50000))
 
-class APIConfig:
-    """Cấu hình API server"""
-    API_HOST = os.getenv("API_HOST")
-    API_PORT = int(os.getenv("API_PORT"))
+class ProductionAPIConfig:
+    """Production API settings"""
+    API_HOST = "0.0.0.0"
+    API_PORT = int(os.getenv("PORT", 8001))
 
-# Khởi tạo instances
-DB_CONFIG = DatabaseConfig()
-AI_CONFIG = AIConfig()
-PERF_CONFIG = PerformanceConfig()
-API_CONFIG = APIConfig()
+# Export for compatibility
+DB_CONFIG = ProductionDatabaseConfig()
+AI_CONFIG = ProductionAIConfig()
+PERF_CONFIG = ProductionPerformanceConfig()
+API_CONFIG = ProductionAPIConfig()
 
-# Legacy exports để tương thích ngược
+# Legacy exports
 MONGODB_USERNAME = DB_CONFIG.MONGODB_USERNAME
 MONGODB_PASSWORD = DB_CONFIG.MONGODB_PASSWORD
 MONGODB_HOST = DB_CONFIG.MONGODB_HOST
@@ -73,3 +75,8 @@ MAX_CONVERSATION_TOKENS = PERF_CONFIG.MAX_CONVERSATION_TOKENS
 
 API_HOST = API_CONFIG.API_HOST
 API_PORT = API_CONFIG.API_PORT
+
+# Production data directories
+DATA_DIR = "/tmp/data"
+BENCHMARK_DIR = "/tmp/benchmark"
+BENCHMARK_RESULTS_DIR = "/tmp/benchmark/results"
