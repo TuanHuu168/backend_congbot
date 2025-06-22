@@ -7,6 +7,9 @@ export PYTHONPATH=/home/app:$PYTHONPATH
 export PYTHONUNBUFFERED=1
 export CUDA_VISIBLE_DEVICES=""  # Force CPU only
 
+# Railway sets PORT environment variable
+export PORT=${PORT:-8001}
+
 # Create necessary directories
 mkdir -p /home/app/chroma_db
 mkdir -p /home/app/data
@@ -25,13 +28,10 @@ except Exception as e:
 " || echo "Database not ready, will initialize during runtime"
 
 # Start the application
-echo "Starting FastAPI application..."
+echo "Starting FastAPI application on port $PORT..."
 exec python -m uvicorn main:app \
     --host 0.0.0.0 \
-    --port ${PORT:-8001} \
+    --port $PORT \
     --workers 1 \
-    --loop uvloop \
-    --http httptools \
     --log-level info \
-    --access-log \
-    --use-colors
+    --access-log

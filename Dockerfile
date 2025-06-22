@@ -75,15 +75,15 @@ WORKDIR /home/app
 # Copy source code
 COPY --chown=app:app . .
 
+# Copy and make start script executable
+COPY --chown=app:app start.sh .
+RUN chmod +x start.sh
+
 # Tạo thư mục cần thiết
 RUN mkdir -p chroma_db data benchmark logs
 
-# Expose port
+# Expose port (Railway will set PORT env var)
 EXPOSE 8001
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8001/status || exit 1
-
-# Command để chạy app
-CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001"]
+# Use start script
+CMD ["./start.sh"]
