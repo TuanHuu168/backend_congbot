@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+chroma_db/
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Tests
+tests/
+test_*
+*_test.py
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node modules (if any)
+node_modules/
+
+# Railway specific
+railway.toml
+
+# Large data files
+data/
+benchmark/
+*.pkl
+*.pt
+*.pth
+*.h5
+*.model
+
+# Requirements (we'll copy specific one)
+requirements.txt

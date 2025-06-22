@@ -12,6 +12,12 @@ from database.mongodb_client import mongodb_client
 # Load .env file
 load_dotenv()
 
+# Use production config in Railway
+if os.getenv('RAILWAY_ENVIRONMENT'):
+    import config_prod as config
+else:
+    import config
+
 # Tạo ứng dụng FastAPI
 app = FastAPI(
     title="CongBot API",
