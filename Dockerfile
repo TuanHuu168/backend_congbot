@@ -60,42 +60,6 @@ COPY --chown=app:app . .
 # Tạo thư mục cần thiết
 RUN mkdir -p chroma_db data benchmark/results logs tmp
 
-# Test import để ensure packages work
-RUN python -c "
-import sys
-print('Python version:', sys.version)
-try:
-    import torch
-    print('✅ PyTorch version:', torch.__version__)
-    print('✅ PyTorch CPU-only:', not torch.cuda.is_available())
-except ImportError as e:
-    print('❌ PyTorch import failed:', e)
-
-try:
-    from google import genai
-    print('✅ Google genai imported successfully')
-except ImportError as e:
-    print('❌ Google genai import failed:', e)
-
-try:
-    import google.generativeai
-    print('✅ Google generativeai imported successfully')
-except ImportError as e:
-    print('❌ Google generativeai import failed:', e)
-
-try:
-    import fastapi
-    print('✅ FastAPI imported successfully')
-except ImportError as e:
-    print('❌ FastAPI import failed:', e)
-
-try:
-    import chromadb
-    print('✅ ChromaDB imported successfully')
-except ImportError as e:
-    print('❌ ChromaDB import failed:', e)
-"
-
 # Expose port
 EXPOSE 8001
 
