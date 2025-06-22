@@ -34,17 +34,17 @@ class ProductionAIConfig:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
     GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
     TOP_K = int(os.getenv("TOP_K", "3"))  # Reduce for faster processing
-    MAX_TOKENS_PER_DOC = int(os.getenv("MAX_CONTEXT_LENGTH", "1000"))  # Reduce for memory
+    MAX_TOKENS_PER_DOC = int(os.getenv("MAX_CONTEXT_LENGTH", 10000)) 
 
 class ProductionPerformanceConfig:
     """Production performance settings"""
     CACHE_TTL_DAYS = int(os.getenv("CACHE_TTL_DAYS", "7"))
-    MAX_CONVERSATION_TOKENS = int(os.getenv("MAX_CONVERSATION_TOKENS", "2000"))
+    MAX_CONVERSATION_TOKENS = int(os.getenv("MAX_CONVERSATION_TOKENS", 50000))
 
 class ProductionAPIConfig:
     """Production API settings"""
     API_HOST = "0.0.0.0"
-    API_PORT = int(os.getenv("PORT", "8001"))
+    API_PORT = int(os.getenv("PORT", 8001))
 
 # Export for compatibility
 DB_CONFIG = ProductionDatabaseConfig()
