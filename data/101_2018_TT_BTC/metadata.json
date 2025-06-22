@@ -1,0 +1,156 @@
+{
+    "doc_id": "101_2018_TT_BTC",
+    "doc_type": "Thông tư",
+    "doc_title": "Quy định quản lý và sử dụng kinh phí thực hiện chính sách ưu đãi người có công với cách mạng và người trực tiếp tham gia kháng chiến do ngành Lao động - Thương binh và Xã hội quản lý",
+    "issue_date": "14-11-2018",
+    "effective_date": "01-01-2019",
+    "expiry_date": null,
+    "status": "active",
+    "document_scope": "Trung ương",
+    "replaces": [
+        "47_2009_TTLT_BTC_BLĐTBXH"
+    ],
+    "replaced_by": null,
+    "amends": null,
+    "amended_by": null,
+    "retroactive": false,
+    "retroactive_date": null,
+    "chunks": [
+        {
+            "chunk_id": "101_2018_TT_BTC_preamble",
+            "chunk_type": "preamble",
+            "file_path": "/data/101_2018_TT_BTC/chunk_1.md",
+            "content_summary": "Phần mở đầu và căn cứ pháp lý của Thông tư về quản lý kinh phí thực hiện chính sách ưu đãi người có công"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch1_art1_3",
+            "chunk_type": "chapter",
+            "file_path": "/data/101_2018_TT_BTC/chunk_2.md",
+            "content_summary": "Quy định chung về phạm vi điều chỉnh, đối tượng áp dụng, quản lý và sử dụng kinh phí"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art4",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_3.md",
+            "content_summary": "Chi chế độ trợ cấp, phụ cấp hàng tháng và trợ cấp một lần cho các đối tượng"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art5",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_4.md",
+            "content_summary": "Chi đóng bảo hiểm y tế cho đối tượng hưởng trợ cấp và phụ cấp hàng tháng"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art6",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_5.md",
+            "content_summary": "Chi chế độ điều dưỡng phục hồi sức khoẻ tại nhà và điều dưỡng tập trung"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art7",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_6.md",
+            "content_summary": "Chi cấp phương tiện trợ giúp, dụng cụ chỉnh hình và chế độ hỗ trợ khi đi làm dụng cụ"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art8_9",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_7.md",
+            "content_summary": "Chi thanh toán chi phí thẩm định cấp giấy giám định y khoa và các chế độ ưu đãi khác"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art10",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_8.md",
+            "content_summary": "Chi hỗ trợ hoạt động của cơ sở nuôi dưỡng, điều dưỡng người có công và cơ sở đón tiếp"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art11",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_9.md",
+            "content_summary": "Chi hỗ trợ xây dựng, cải tạo, nâng cấp công trình ghi công liệt sĩ"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art12_13",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_10.md",
+            "content_summary": "Chi hỗ trợ thăm viếng mộ liệt sĩ và di chuyển hài cốt liệt sĩ"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art14",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_11.md",
+            "content_summary": "Chi phí quản lý, nội dung chi và mức chi cho quản lý đối tượng, hồ sơ, tài chính"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch2_art15",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_12.md",
+            "content_summary": "Chi trả chế độ cho người thụ hưởng thông qua tổ chức dịch vụ chi trả"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch3_art16",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_13.md",
+            "content_summary": "Lập dự toán kinh phí thực hiện chính sách ưu đãi người có công với cách mạng"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch3_art17",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_14.md",
+            "content_summary": "Phân bổ, giao dự toán kinh phí thực hiện chính sách ưu đãi người có công"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch3_art18",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_15.md",
+            "content_summary": "Điều chỉnh dự toán trong phạm vi nội bộ cấp tỉnh và giữa các tỉnh"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch3_art19",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_16.md",
+            "content_summary": "Hạch toán, quyết toán kinh phí thực hiện chính sách ưu đãi người có công"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch3_art20_21",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_17.md",
+            "content_summary": "Xử lý kinh phí cuối năm và truy thu, truy lĩnh đối với các trường hợp hưởng sai chế độ"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_ch4_art22_23",
+            "chunk_type": "article",
+            "file_path": "/data/101_2018_TT_BTC/chunk_18.md",
+            "content_summary": "Điều khoản thi hành, hiệu lực và tổ chức thực hiện Thông tư"
+        },
+        {
+            "chunk_id": "101_2018_TT_BTC_appendix",
+            "chunk_type": "appendix",
+            "file_path": "/data/101_2018_TT_BTC/chunk_19.md",
+            "content_summary": "Phụ lục mức tiền cấp mua phương tiện trợ giúp, dụng cụ chỉnh hình, vật phẩm phụ"
+        }
+    ],
+    "related_documents": [
+        {
+            "doc_id": "47_2009_TTLT_BTC_BLĐTBXH",
+            "relationship": "replaced_by",
+            "description": "Thông tư liên tịch hướng dẫn cấp phát, quản lý và sử dụng kinh phí thực hiện chính sách ưu đãi người có công với cách mạng và người trực tiếp tham gia kháng chiến do ngành Lao động-Thương binh và Xã hội quản lý"
+        },
+        {
+            "doc_id": "31_2013_NĐ_CP",
+            "relationship": "references",
+            "description": "Nghị định quy định chi tiết, hướng dẫn thi hành một số điều của Pháp lệnh ưu đãi người có công với cách mạng"
+        },
+        {
+            "doc_id": "163_2016_NĐ_CP",
+            "relationship": "references",
+            "description": "Nghị định quy định chi tiết thi hành một số điều của Luật ngân sách nhà nước"
+        },
+        {
+            "doc_id": "87_2017_NĐ_CP",
+            "relationship": "references",
+            "description": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài chính"
+        }
+    ]
+}

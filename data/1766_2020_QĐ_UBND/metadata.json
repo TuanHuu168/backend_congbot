@@ -1,0 +1,140 @@
+{
+    "doc_id": "1766_2020_QĐ_UBND",
+    "doc_type": "Quyết định",
+    "doc_title": "Về việc công bố danh mục thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ thuộc phạm vi chức năng quản lý của ngành Tư pháp trên địa bàn tỉnh",
+    "issue_date": "03-08-2020",
+    "effective_date": "03-08-2020",
+    "expiry_date": null,
+    "status": "active",
+    "document_scope": "Địa phương",
+    "replaces": null,
+    "replaced_by": null,
+    "amends": null,
+    "amended_by": null,
+    "retroactive": false,
+    "retroactive_date": null,
+    "chunks": [
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_preamble",
+            "chunk_type": "preamble",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_1.md",
+            "content_summary": "Phần mở đầu của Quyết định về việc công bố danh mục thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ thuộc phạm vi chức năng quản lý của ngành Tư pháp"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_art1_3",
+            "chunk_type": "article",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_2.md",
+            "content_summary": "Điều khoản về nội dung công bố, hiệu lực thi hành và trách nhiệm thi hành Quyết định"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_chung_thuc_chung",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_3.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực chứng thực - áp dụng chung"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_chung_thuc_cap_huyen_xa",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_4.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực chứng thực - cấp huyện và cấp xã"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_quoc_tich",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_5.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực quốc tịch"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_luat_su_1",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_6.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực luật sư (phần 1)"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_luat_su_2_tu_van",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_7.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực luật sư (phần 2) và lĩnh vực tư vấn pháp luật"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_bien_phap_bao_dam_1",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_8.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực đăng ký biện pháp bảo đảm (phần 1)"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_bien_phap_bao_dam_2",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_9.md",
+            "content_summary": "Danh mục thủ tục hành chính sửa đổi, bổ sung thuộc lĩnh vực đăng ký biện pháp bảo đảm (phần 2)"
+        },
+        {
+            "chunk_id": "1766_2020_QĐ_UBND_annex_tthc_bai_bo",
+            "chunk_type": "annex",
+            "file_path": "/data/1766_2020_QĐ_UBND/chunk_10.md",
+            "content_summary": "Danh mục thủ tục hành chính bị bãi bỏ thuộc các lĩnh vực chứng thực, quốc tịch, luật sư, tư vấn pháp luật và phổ biến giáo dục pháp luật"
+        }
+    ],
+    "related_documents": [
+        {
+            "doc_id": "63_2010_ND_CP",
+            "relationship": "references",
+            "description": "Nghị định về kiểm soát thủ tục hành chính"
+        },
+        {
+            "doc_id": "48_2013_ND_CP",
+            "relationship": "references",
+            "description": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến kiểm soát thủ tục hành chính"
+        },
+        {
+            "doc_id": "92_2017_ND_CP",
+            "relationship": "references",
+            "description": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến kiểm soát thủ tục hành chính"
+        },
+        {
+            "doc_id": "02_2017_TT_VPCP",
+            "relationship": "references",
+            "description": "Thông tư hướng dẫn nghiệp vụ kiểm soát thủ tục hành chính"
+        },
+        {
+            "doc_id": "1217_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực quốc tịch"
+        },
+        {
+            "doc_id": "1183_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực đăng ký biện pháp bảo đảm"
+        },
+        {
+            "doc_id": "1472_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực phổ biến, giáo dục pháp luật"
+        },
+        {
+            "doc_id": "1329_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực chứng thực"
+        },
+        {
+            "doc_id": "1565_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực luật sư"
+        },
+        {
+            "doc_id": "1566_QĐ_BTP",
+            "relationship": "references",
+            "description": "Quyết định công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ trong lĩnh vực tư vấn pháp luật"
+        },
+        {
+            "doc_id": "2669_QĐ_UBND",
+            "relationship": "references",
+            "description": "Quyết định phê duyệt quy trình nội bộ trong giải quyết thủ tục hành chính thuộc phạm vi, chức năng quản lý của ngành Tư pháp"
+        },
+        {
+            "doc_id": "1331_QĐ_UBND",
+            "relationship": "references",
+            "description": "Quyết định phê duyệt quy trình nội bộ trong giải quyết thủ tục hành chính thuộc phạm vi, chức năng quản lý của ngành Tư pháp"
+        }
+    ]
+}

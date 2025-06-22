@@ -1,0 +1,99 @@
+{
+    "doc_id": "48_2013_NĐ_CP", 
+    "doc_type": "Nghị định", 
+    "doc_title": "Sửa đổi, bổ sung một số điều của các Nghị định liên quan đến kiểm soát thủ tục hành chính",
+    "issue_date": "14-05-2013", 
+    "effective_date": "01-07-2013", 
+    "expiry_date": null, 
+    "status": "active", 
+    "document_scope": "Trung ương", 
+    "replaces": null, 
+    "replaced_by": null, 
+    "amends": [
+        "63_2010_NĐ_CP",
+        "20_2008_NĐ_CP",
+        "36_2012_NĐ_CP",
+        "55_2011_NĐ_CP"
+    ], 
+    "amended_by": null, 
+    "retroactive": false, 
+    "retroactive_date": null, 
+    "chunks": [
+        {
+            "chunk_id": "48_2013_NĐ_CP_preamble",
+            "chunk_type": "preamble",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_1.md",
+            "content_summary": "Phần mở đầu của Nghị định, bao gồm thông tin ban hành và căn cứ pháp lý"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art1_part1",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_2.md",
+            "content_summary": "Điều 1 (phần 1): Sửa đổi Điều 5 về cơ quan, đơn vị kiểm soát thủ tục hành chính và Điều 9 về tham gia ý kiến đối với quy định về thủ tục hành chính, các khoản 1-3"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art1_part2",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_3.md",
+            "content_summary": "Điều 1 (phần 2): Sửa đổi Khoản 2 Điều 10, Điều 11 và Điều 15 liên quan đến đánh giá tác động, thẩm định và quyết định công bố thủ tục hành chính, khoản 4-6"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art1_part3",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_4.md",
+            "content_summary": "Điều 1 (phần 3): Sửa đổi Khoản 2 Điều 22 và Khoản 4 Điều 30, bãi bỏ Khoản 5 Điều 29, khoản 7-9"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art1_part4",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_5.md",
+            "content_summary": "Điều 1 (phần 4): Sửa đổi, bổ sung Điều 31, Điều 35, bổ sung Điều 35a và các sửa đổi khác, khoản 10-12"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art2",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_6.md",
+            "content_summary": "Điều 2: Sửa đổi một số điều của Nghị định số 20/2008/NĐ-CP về tiếp nhận, xử lý phản ánh, kiến nghị của cá nhân, tổ chức về quy định hành chính"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art3",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_7.md",
+            "content_summary": "Điều 3: Sửa đổi, bổ sung Khoản 1 Điều 17 của Nghị định số 36/2012/NĐ-CP về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ, cơ quan ngang Bộ"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art4",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_8.md",
+            "content_summary": "Điều 4: Sửa đổi, bổ sung một số điều của Nghị định số 55/2011/NĐ-CP về chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của tổ chức pháp chế"
+        },
+        {
+            "chunk_id": "48_2013_NĐ_CP_art5",
+            "chunk_type": "article",
+            "file_path": "/data/48_2013_NĐ_CP/chunk_9.md",
+            "content_summary": "Điều 5: Điều khoản thi hành và phần ký ban hành"
+        }
+    ],
+    "related_documents": [
+        {
+            "doc_id": "63_2010_NĐ_CP",
+            "relationship": "amends",
+            "description": "Nghị định về kiểm soát thủ tục hành chính"
+        },
+        {
+            "doc_id": "20_2008_NĐ_CP",
+            "relationship": "amends",
+            "description": "Nghị định về tiếp nhận, xử lý phản ánh, kiến nghị của cá nhân, tổ chức về quy định hành chính"
+        },
+        {
+            "doc_id": "36_2012_NĐ_CP",
+            "relationship": "amends",
+            "description": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ, cơ quan ngang Bộ"
+        },
+        {
+            "doc_id": "55_2011_NĐ_CP",
+            "relationship": "amends",
+            "description": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của tổ chức pháp chế"
+        }
+    ]
+}

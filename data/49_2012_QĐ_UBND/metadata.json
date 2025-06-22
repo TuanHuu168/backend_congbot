@@ -1,0 +1,85 @@
+{
+    "doc_id": "49_2012_QĐ_UBND",
+    "doc_type": "Quyết định",
+    "doc_title": "Ban hành quy chế quản lý kinh phí chi thực hiện chính sách ưu đãi người có công với cách mạng và người trực tiếp tham gia kháng chiến trên địa bàn Thành phố Hồ Chí Minh",
+    "issue_date": "23-10-2012",
+    "effective_date": "02-11-2012",
+    "expiry_date": null,
+    "status": "active",
+    "document_scope": "Địa phương",
+    "replaces": [
+        "các quy định trước đây trái với nội dung"
+    ],
+    "replaced_by": null,
+    "amends": null,
+    "amended_by": null,
+    "retroactive": false,
+    "retroactive_date": null,
+    "chunks": [
+        {
+            "chunk_id": "49_2012_QĐ_UBND_preamble",
+            "chunk_type": "preamble",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_1.md",
+            "content_summary": "Phần mở đầu của Quyết định về quản lý kinh phí chi thực hiện chính sách ưu đãi người có công với cách mạng"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_art1_3",
+            "chunk_type": "article",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_2.md",
+            "content_summary": "Ban hành quy chế, thời điểm có hiệu lực và trách nhiệm thi hành quyết định"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch1",
+            "chunk_type": "chapter",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_3.md",
+            "content_summary": "Quy định chung về phạm vi điều chỉnh, nguyên tắc cấp phát, quản lý và sử dụng kinh phí thực hiện chế độ ưu đãi người có công"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch2_art4_5",
+            "chunk_type": "article",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_4.md",
+            "content_summary": "Nhiệm vụ của Sở Lao động - Thương binh và Xã hội, Kho bạc Nhà nước trong quản lý và cấp phát kinh phí ưu đãi người có công"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch2_art6_7",
+            "chunk_type": "article",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_5.md",
+            "content_summary": "Nhiệm vụ của UBND quận-huyện và Phòng Lao động-Thương binh và Xã hội quận-huyện trong quản lý đối tượng và kinh phí ưu đãi người có công"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch2_art8",
+            "chunk_type": "article",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_6.md",
+            "content_summary": "Nhiệm vụ của UBND phường-xã, thị trấn trong quản lý đối tượng và chi trả trợ cấp ưu đãi người có công"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch2_art9",
+            "chunk_type": "article",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_7.md",
+            "content_summary": "Nhiệm vụ của các đơn vị thuộc Sở Lao động-Thương binh và Xã hội trong quản lý kinh phí và quyết toán chính sách ưu đãi người có công"
+        },
+        {
+            "chunk_id": "49_2012_QĐ_UBND_regulation_ch3",
+            "chunk_type": "chapter",
+            "file_path": "/data/49_2012_QĐ_UBND/chunk_8.md",
+            "content_summary": "Quy định về xử lý vi phạm và tổ chức thực hiện quy chế quản lý kinh phí chính sách ưu đãi người có công"
+        }
+    ],
+    "related_documents": [
+        {
+            "doc_id": "47_2009_TTLT_BTC_BLĐTBXH",
+            "relationship": "references",
+            "description": "Thông tư liên tịch hướng dẫn cấp phát, quản lý và sử dụng kinh phí thực hiện chính sách ưu đãi người có công"
+        },
+        {
+            "doc_id": "09_2007_QĐ_LĐTBXH",
+            "relationship": "references",
+            "description": "Quyết định về mẫu hợp đồng trách nhiệm chi trả trợ cấp ưu đãi người có công"
+        },
+        {
+            "doc_id": "19_2006_QĐ_BTC",
+            "relationship": "references",
+            "description": "Quyết định về biểu mẫu báo cáo quyết toán kinh phí"
+        }
+    ]
+}

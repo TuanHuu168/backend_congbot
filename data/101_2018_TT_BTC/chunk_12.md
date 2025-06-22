@@ -1,0 +1,10 @@
+# 101_2018_TT_BTC_ch2_art15
+Điều 15. Chi trả chế độ cho người thụ hưởng thông qua tổ chức dịch vụ chi trả
+
+1. Việc lựa chọn tổ chức dịch vụ chi trả có kinh nghiệm, có mạng lưới điểm giao dịch tại xã, phường, thị trấn, có thể đảm nhiệm việc chi trả tại nhà cho một số đối tượng đặc thù, bảo đảm kịp thời và an toàn trong việc chi trả theo quy định của Bộ trưởng Bộ LĐTBXH.
+
+2. Việc chi trả thông qua tổ chức dịch vụ chi trả được lập thành hợp đồng giữa cơ quan LĐTBXH (Sở LĐTBXH hoặc Phòng LĐTBXH tùy theo phân cấp của từng địa phương) và tổ chức dịch vụ chi trả, trong đó phải ghi rõ phạm vi đối tượng chi trả, phương thức chi trả (gồm chi trả trực tiếp bằng tiền mặt, chi trả qua thẻ ATM), phương thức chuyển tiền và thời hạn chuyển tiền, thời hạn chi trả đến người thụ hưởng, mức chi phí chi trả, thời hạn thanh quyết toán, quyền và trách nhiệm của các bên, thoả thuận khác có liên quan đến việc chi trả.
+
+3. Trước ngày 25 hằng tháng, cơ quan LĐTBXH căn cứ danh sách đối tượng thụ hưởng (bao gồm đối tượng hưởng trợ cấp hàng tháng tăng, giảm; đối tượng hưởng trợ cấp một lần); số kinh phí chi trả tháng sau (bao gồm cả tiền truy lĩnh và mai táng phí của đối tượng); số kinh phí còn lại chưa chi trả tháng trước (nếu có) thực hiện rút dự toán tại KBNN và chuyển vào tài khoản tiền gửi của tổ chức dịch vụ chi trả; đồng thời chuyển danh sách chi trả để tổ chức dịch vụ chi trả cho đối tượng thụ hưởng tháng sau. Trong thời gian chi trả, cơ quan LĐTBXH có trách nhiệm cử người giám sát việc chi trả của tổ chức thực hiện chi trả.
+
+4. Hằng tháng, tổ chức dịch vụ chi trả tổng hợp, báo cáo danh sách đối tượng đã nhận tiền, số tiền đã chi trả; danh sách đối tượng chưa nhận tiền để chuyển chi trả vào tháng sau, số kinh phí còn lại chưa chi trả và chuyển chứng từ (danh sách đã ký nhận và chứng từ chuyển khoản ngân hàng) cho cơ quan LĐTBXH trước ngày 20 hằng tháng. Cơ quan LĐTBXH tổng hợp quyết toán kinh phí chi trả theo quy định.

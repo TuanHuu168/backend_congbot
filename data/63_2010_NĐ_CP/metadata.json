@@ -1,0 +1,114 @@
+{
+    "doc_id": "63_2010_NĐ_CP",
+    "doc_type": "Nghị định",
+    "doc_title": "Về kiểm soát thủ tục hành chính",
+    "issue_date": "08-06-2010",
+    "effective_date": "14-10-2010",
+    "expiry_date": null,
+    "status": "active",
+    "document_scope": "Toàn quốc",
+    "replaces": ["1699_QĐ_TTg"],
+    "replaced_by": null,
+    "amends": null,
+    "amended_by": null,
+    "retroactive": false,
+    "retroactive_date": null,
+    "chunks": [
+        {
+            "chunk_id": "63_2010_NĐ_CP_preamble",
+            "chunk_type": "preamble",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_1.md",
+            "content_summary": "Phần mở đầu của Nghị định về kiểm soát thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch1_art1_6",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_2.md",
+            "content_summary": "Chương 1: Những quy định chung về phạm vi điều chỉnh, đối tượng áp dụng, giải thích từ ngữ, nguyên tắc kiểm soát thủ tục hành chính, cơ quan kiểm soát thủ tục hành chính và các hành vi bị nghiêm cấm"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch2_art7_9",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_3.md",
+            "content_summary": "Chương 2: Quy định về nguyên tắc, yêu cầu quy định thủ tục hành chính và lấy ý kiến về quy định thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch2_art10_11",
+            "chunk_type": "article",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_4.md",
+            "content_summary": "Quy định về đánh giá tác động của thủ tục hành chính và thẩm định quy định về thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch3_art12_15",
+            "chunk_type": "article",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_5.md",
+            "content_summary": "Nguyên tắc thực hiện thủ tục hành chính, thẩm quyền công bố, phạm vi công bố và quyết định công bố thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch3_art16_19",
+            "chunk_type": "article",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_6.md",
+            "content_summary": "Quy định về công khai thủ tục hành chính, hình thức công khai, trách nhiệm của cơ quan thực hiện thủ tục hành chính, và trách nhiệm người đứng đầu Bộ, cơ quan ngang Bộ, UBND tỉnh, thành phố"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch3_art20_22",
+            "chunk_type": "article",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_7.md",
+            "content_summary": "Trách nhiệm của cán bộ, công chức thực hiện thủ tục hành chính, quyền và nghĩa vụ của đối tượng thực hiện thủ tục hành chính, phản ánh kiến nghị về thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch4_art23_26",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_8.md",
+            "content_summary": "Chương 4: Cơ sở dữ liệu quốc gia về thủ tục hành chính, điều kiện đăng tải, nhập dữ liệu, giá trị và trách nhiệm quản lý cơ sở dữ liệu"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch5_art27_31",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_9.md",
+            "content_summary": "Chương 5: Quy định về trách nhiệm, nội dung, cách thức, kế hoạch và xử lý kết quả rà soát, đánh giá thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch6_art32_35",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_10.md",
+            "content_summary": "Chương 6: Quy định về khen thưởng, xử lý vi phạm, điều kiện đảm bảo kinh phí và chế độ thông tin, báo cáo trong hoạt động kiểm soát thủ tục hành chính"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_ch7_art36_37",
+            "chunk_type": "chapter",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_11.md",
+            "content_summary": "Chương 7: Điều khoản thi hành về trách nhiệm thi hành và hiệu lực thi hành của Nghị định"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_annex1",
+            "chunk_type": "appendix",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_12.md",
+            "content_summary": "Phụ lục I: Biểu mẫu đánh giá thủ tục hành chính về sự cần thiết, tính hợp lý, tính hợp pháp và chi phí thực hiện"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_annex2",
+            "chunk_type": "appendix",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_13.md",
+            "content_summary": "Phụ lục II: Biểu mẫu đánh giá mẫu đơn, mẫu tờ khai hành chính về sự cần thiết, nội dung, thể thức và ngôn ngữ"
+        },
+        {
+            "chunk_id": "63_2010_NĐ_CP_annex3",
+            "chunk_type": "appendix",
+            "file_path": "/data/63_2010_NĐ_CP/chunk_14.md",
+            "content_summary": "Phụ lục III: Biểu mẫu đánh giá yêu cầu, điều kiện về sự cần thiết, tính hợp lý và tính hợp pháp"
+        }
+    ],
+    "related_documents": [
+        {
+            "doc_id": "1699_QĐ_TTg",
+            "relationship": "replaces_partially",
+            "description": "Bãi bỏ quy định tại Điều 2 của Quyết định số 1699/QĐ-TTg ngày 20 tháng 10 năm 2009 của Thủ tướng Chính phủ về việc thiết lập Cơ sở dữ liệu quốc gia về thủ tục hành chính"
+        },
+        {
+            "doc_id": "30_QĐ_TTg",
+            "relationship": "references",
+            "description": "Tham chiếu đến Quyết định số 30/QĐ-TTg ngày 10/01/2007 của Thủ tướng Chính phủ phê duyệt Đề án đơn giản hóa thủ tục hành chính"
+        }
+    ]
+}
