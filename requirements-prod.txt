@@ -1,3 +1,9 @@
+# PyTorch CPU-only - phải cài trước
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+torchvision==0.20.1 
+torchaudio==2.5.1
+
 # Core framework
 fastapi==0.115.9
 uvicorn==0.34.2
