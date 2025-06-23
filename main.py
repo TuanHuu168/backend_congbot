@@ -8,6 +8,7 @@ from api.chat import router as chat_router
 from api.admin import router as admin_router
 from api.user import router as user_router
 from database.mongodb_client import mongodb_client
+import psutil
 
 # Load .env file
 load_dotenv()
@@ -38,6 +39,12 @@ app.add_middleware(
 app.include_router(chat_router)
 app.include_router(admin_router)
 app.include_router(user_router)
+
+@app.on_event("startup")
+async def startup_event():
+    process = psutil.Process(os.getpid())
+    memory_info = process.memory_info()
+    print(f"Memory usage at startup: {memory_info.rss / 1024 / 1024:.2f} MB")
 
 # Endpoint gốc
 @app.get("/")
